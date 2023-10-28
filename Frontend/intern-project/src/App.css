@@ -1,0 +1,374 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+body {
+ 
+  background-image: url('./background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+   
+    
+  
+}
+.text-container {
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(164, 157, 157, 0.177); 
+  color: white;
+  
+  border: 0px solid #f1f1f1;
+  border-radius: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 30%;
+  height: 60%;
+  padding: 25px;
+  text-align: center;
+  font-weight: bold;
+ 
+}
+.heading{
+  margin-top: 35px;
+  font-size: 45px;
+  font-weight: normal;
+}
+.hor-line{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.h-1{
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 6px;
+  margin-left: 20px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #90ddfc;
+}
+.keybox{
+  
+  
+  margin-top: 10px;
+  border: 0px;
+  height: 8%;
+  border-radius: 6px;
+  width: 93%;
+}
+.h-2{
+  margin-left: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+}
+  .h-3{
+     padding-left: 5px;
+
+    margin-right:60%;
+    margin-top:15px;
+    margin-left:10px;
+  }
+
+  .label{
+    font-weight:normal;
+    color:#90ddfc;
+    font-size: 16px;
+  }
+  .location1{
+    margin-right: 9px;
+    margin-top: 10px;
+  }
+ 
+ 
+  
+
+.distbox{
+  
+  padding-top: 12px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 0px;
+}
+.ctgbox{
+  margin-top: 10px;
+  padding-top: 12px;
+  border-radius: 5px;
+  border: 0px;
+}
+.h2-1{
+  text-align:left;
+  margin-top: 25px;
+  font-weight:normal;
+  font-size:18px;
+  margin-left:3px;
+  margin-bottom: 5px;
+  color:#90ddfc;
+}
+.h2-2{
+  text-align:left;
+  margin-top: 25px;
+  font-weight:normal;
+  font-size:18px;
+  margin-left:3px;
+  margin-bottom: 5px;
+  color:#90ddfc;
+}
+.lcnbox{
+  width: 94%;
+  height: 8%;
+  margin-top: 10px;
+  border: 0px;
+  border-radius: 5px;
+}
+.button{
+  display: inline-block;
+  margin-top: 10px;
+  }
+ 
+  
+
+.button1{
+  padding: 10px;
+  border: 0px;
+  border-radius: 6px;  
+  background-color: #dc3545;
+  color: white;
+  margin-right: 40px;
+
+}
+.button2{
+  padding: 10px;
+  border: 0px;
+  border-radius: 6px;
+  background-color: #3488ff;
+  color: white;
+
+}
+.table{
+  
+  margin-top: 70px;
+  position: absolute;
+ 
+}
+.require {
+  color: red;
+}
+
+.blur-box {
+   position:absolute; 
+   top:800px;
+   margin-bottom: 150px;
+ 
+   left:490px;
+   width: 50%;
+   height: 80%;
+   backdrop-filter: blur(10px);
+   background-color:rgba(132, 106, 106, 0.5); /* Apply a blur effect to the element */
+}
+.main-body{
+  display:flex;
+  justify-content: center; 
+   align-items: center; 
+  padding:10%;
+  margin-bottom: 150px;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+}
+.nav-search{
+  border: 2px white;
+  margin-left: 88%; 
+  margin-top: 30px; 
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  color:white;
+}
+.nav-search:hover {
+  color:#ffffff; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+.nav-favourite{
+  border: 2px white;
+  margin-right: 50px;
+  margin-top: 30px;   
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  
+}
+.nav-favourite:hover {
+  color:#ffffff; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+.favbox{
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  width: 50%;
+  background-color: white;
+  margin-left: 25%;
+  margin-top: 70px;
+  border-radius: 30px;
+}
+.favtext{
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+}
+.tablecard{
+  display: flex;
+  justify-content: center;
+  margin-right: 45px;
+}
+.back{
+  text-align: left;
+  font-weight: 10px;
+}
+.evename{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: normal;
+}
+.card-detail{
+  position: absolute;
+  width: 85vh;
+  height: 30vh;
+  padding: 20px;
+  background-color: rgba(187, 180, 180, 0.4);
+  margin-right: 10px;
+  margin-left: 90vh;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+
+
+}
+
+.cardtab{
+  position: absolute;
+  justify-content: top;
+  background-color: rgba(141, 137, 137, 0.4);
+  height: 90vh;
+  width: 90vh;
+  padding: 20px;
+  margin-left: 15px;
+  flex-direction: column;
+}
+.textb{
+  margin-right: 93%;
+}
+.tabdiv{
+  margin-left: 10px;
+}
+.textcard{
+  
+  margin-left: 45%;
+}
+#statusbutton{
+  width: 70px;
+  border: 2px ;
+  border-radius: 10px;
+  background-color: green;
+  padding: 10px;
+  text-align: center;
+  margin-left: 55%;
+}
+.maindatadiv{
+  display: flex;
+  flex-direction: row;
+}
+.datadiv{
+  position: absolute;
+  text-align: center;
+  margin-left:30px;
+}
+.divimg{
+  display: flex;
+  margin-top:170px;
+  margin-left:46% ;
+}
+.seatmap{
+  height: 300px;
+  width: 300px;
+  margin-left: 85%;
+}
+.share{
+  margin-top:30%;
+}
+.option-navigation {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #479485;
+}
+
+.option {
+  text-align: center;
+  padding: 10px;
+  background-color: #479485;
+  cursor: pointer;
+}
+
+.option-content {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+
+}
+.namediv{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.rulediv{
+  display: flex;
+  flex-direction: column;
+  margin-left: 35%;
+}
+.venuetextdata{
+  font-weight: normal;
+}
+.ruletextdata{
+  font-weight: normal;
+}
+.btn{
+  background-color: rgb(106, 106, 245);
+}
+#eventtable {
+  border-collapse: collapse;
+  width: 100%;
+ background-color: black;
+}
+#eventtable td {
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  
+}
+#eventtable tr:nth-child(even){background-color: #2b2828;}
+
+#eventtable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
